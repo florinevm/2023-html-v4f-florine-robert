@@ -17,3 +17,29 @@
 /************************* YOUR SETTINGS *************************/
 
 /* add your css here, feel free to use comments and order them logically for better readability */
+
+header {
+   width: 900px;
+   height: 50px;
+   background-color: #ffffff;
+   margin: auto;
+ }
+  
+ nav {
+   width: 900px;
+   height: 50px;
+   margin: auto;
+   background-color: #ffffff;
+ }
+  
+ #bigimage {
+   width: 100%;
+   height: 300px;
+ }
+  
+ main {
+   width: 900px;
+   background-color: red;
+   margin: auto;
+ }
+ 
