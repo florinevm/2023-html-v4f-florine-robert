@@ -18,6 +18,7 @@
 
 /* add your css here, feel free to use comments and order them logically for better readability */
 .logo_en_naam{
+   float: left;
    width: 1000px; 
    height: 150px;
    font-style: ;
