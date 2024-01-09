@@ -40,3 +40,8 @@ veiligheid{
      # { color: #808080 } /* CSS link color */
    </style>
  </body>
+
+ .wrapper {
+    margin: 0 auto;
+    width: 1000px;
+ }
