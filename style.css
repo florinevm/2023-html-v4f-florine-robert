@@ -1,22 +1,26 @@
-/************************* DEBUG SETTINGS *************************/
+html{ 
+    color: black;
+    height: 100%; 
+    width: 100%; 
+    font-family:'Times New Roman', Times, serif;  
+}
 
-/* Settings to help find errors in your css
-   uncomment to enable */
+body{ 
+    height: 100%;
+    color:black; 
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #1f7ea4;
+}
+h2 {
+    color: black; 
+ }
 
-/* Add dotted line around all boxes.
-   This makes size of boxes visible.
-   Warning 1: this settings may change your layout.
-   Warning 2: keep the * as selector for all tags when uncommenting. */
-/*  * {border: 1px dotted black;}   */
-  
-/* Add semi-transparant dark background to all boxes
-   The more boxes are on top of eachother the darker tghe background color
-   Warning: keep the * as selector for all tags when uncommenting. */
-/*  * {background-color: rgba(0,0,0,5%);}  */
-
-/************************* YOUR SETTINGS *************************/
-
-/* add your css here, feel free to use comments and order them logically for better readability */
+p{ 
+    color: black;
+}
+veiligheid{ 
+    color:black; 
+}
 .logo_en_naam{
    float: left;
    width: 1000;
@@ -26,6 +30,9 @@
    color:
    background-color:#0f4c75ff; }
  
- 
- 
- 
+
+   <head>
+   <style>
+     # { color: #FF0000; } /* CSS link color */
+   </style>
+ </head>
