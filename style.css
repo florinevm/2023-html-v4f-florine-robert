@@ -30,9 +30,13 @@ veiligheid{
    color:
    background-color:#0f4c75ff; }
  
+   a {
+    color: black;
+    text-decoration:none ;
+   }
 
-   <head>
+   <body>
    <style>
-     # { color: #FF0000; } /* CSS link color */
+     # { color: #808080 } /* CSS link color */
    </style>
- </head>
+ </body>
