@@ -1,47 +1,171 @@
 html{ 
-    color: black;
+    color: #0f4c75ff;
     height: 100%; 
     width: 100%; 
     font-family:'Times New Roman', Times, serif;  
 }
 
+*{
+    margin: 0px;
+    padding: 10px;
+}
+
 body{ 
     height: 100%;
-    color:black; 
+    color:#0f4c75ff; 
     font-family: 'Times New Roman', Times, serif;
-    background-color: #1f7ea4;
+    background-image: url(images/diagmonds.png);}
+
+header{ 
+    margin-top: auto;
+    color: #0f4c75ff; 
+}
+
+ul{ 
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+
+nav { 
+    float: center;
+    text-align: center;
+    li{
+        margin: 0px;;
+        float: left;
+        color: white;
+    }
+    
+    li a{
+        display: inline-block;
+        text-align: center;
+        margin-right: auto;
+        padding: 10px;
+        border: 1px solid white;
+        width: auto;
+        background-color: #0f4c75ff;
+    }
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+
+li.dropdown {
+    display: inline-block;} 
+
+.dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+.dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      
+.dropdown-content a:hover {background-color: #f1f1f1;}
+      
+.dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+
+h1{ 
+    color:#0f4c75ff;
+    font-weight: bold;
+    width: 150;
+    height: 150;
+    text-align: center;
 }
 h2 {
-    color: black; 
+    color: #0f4c75ff; 
  }
 
-p{ 
-    color: black;
-}
-veiligheid{ 
-    color:black; 
-}
-.logo_en_naam{
-   float: left;
-   width: 1000;
-   height: 150;
-   font-style: ;
-   font-size: ;
-   color:
-   background-color:#0f4c75ff; }
- 
-   a {
+ a {
     color: black;
     text-decoration:none ;
-   }
+}
 
-   <body>
-   <style>
-     # { color: #808080 } /* CSS link color */
-   </style>
- </body>
-
- .wrapper {
-    margin:0 auto;
-    width: 1000px;
+ a:hover{ 
+    color:blue; 
+    text-decoration: underline;
  }
+
+ p{ 
+    color: #0f4c75ff;
+}
+
+h5{ 
+    color:#0f4c75ff; 
+}
+
+article{
+#afbeelding_beginblz{
+    float: left;
+    width: 900px; 
+    height: 600px;} 
+}
+
+#Over_ons {
+    a{
+        color: blue;
+        text-decoration: underline;
+    }
+}    
+
+footer {
+    a {
+        color: blue;
+        text-decoration: underline;
+    }
+}
+
+/*Ik ga hier verder met Digitale veiligheid*/
+
+#wrapper_digitale_veiligheid {
+    width: auto;
+}
+
+#Digitale_veiligheid_inleiding {
+    float: left;
+    li{
+        border: 1px solid white;
+        width: 500px;
+    }
+}
+
+#Vertrouwelijkheid {
+float: right;
+border: 1px solid white;
+width: 900px;
+background-color: white;
+}
+
+#Afbeelding.verificatie {
+    width:auto;
+    height:auto
+}
+
+#Integriteit {
+    width: 300px;
+    float: left;
+}
+
+#Beschikbaarheid{
+    float: left;
+}
+
+#Inhoud_digitale_veiligheid{
+width: 200px;
+    }
+
