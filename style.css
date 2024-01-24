@@ -133,11 +133,14 @@ footer {
 /*Ik ga hier verder met Digitale veiligheid*/
 
 #wrapper_digitale_veiligheid {
-    width: auto;
+    width: 1850px;
+    clear: both;
 }
 
 #Digitale_veiligheid_inleiding {
     float: left;
+    border: 1px solid white;
+    width: 1809px;
     li{
         border: 1px solid white;
         width: 500px;
@@ -145,7 +148,7 @@ footer {
 }
 
 #Vertrouwelijkheid {
-float: right;
+float: left;
 border: 1px solid white;
 width: 900px;
 background-color: white;
@@ -157,15 +160,103 @@ background-color: white;
 }
 
 #Integriteit {
-    width: 300px;
-    float: left;
+    width: 905px;
+    float: right;
+    border: 1px double white;
+    margin: 0px;
+    padding: 0px;
 }
 
 #Beschikbaarheid{
-    float: left;
+    float: right;
+    width: 905px;
+    height: 656px;
+    border: 1px solid white;
+    margin: 0px;
+    padding: 0px;
 }
 
 #Inhoud_digitale_veiligheid{
 width: 200px;
     }
 
+
+/*Ik ga hier verder met bedrijgingen.html*/ 
+#wrapper_bedrijgingen {
+    width: 1790px;
+}
+
+#Inleiding_Bedrijgingen {
+    width: 600px;
+    background-color: white; /*deze moet naar het midden van zijn rij worden verplaatst*/
+    }
+    ol{
+        list-style-type: disc;
+    }
+
+#Zwakheden_in_de_architectuur {
+    float: left;
+}
+
+#Zwakheden_in_de_architectuur2 {
+    float: left;
+    border: 1px solid white;
+    height: 570px;
+    width: 350px;
+}
+#afbeelding_drielagen {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+#afbeelding_acces {
+
+}
+
+#Zwakheden_in_de_architectuur3 {
+    border: 1px solid white;
+    width: 500px;
+    height: 570px;
+    overflow: hidden;
+
+}
+
+#Zwakheden_in_de_architectuur4 {
+    float: left;
+    border: 1px solid white;
+    width: 872px;
+    height: 200px;
+    clear: both;
+    a {
+        color: blue;
+        text-decoration: underline;
+    }
+}
+
+#Zwakheden_in_de_communicatie {
+
+}
+
+#afbeelding_man_in_the_middel {} 
+
+
+/*Ik ga hier verder met aanvallers en verdedigers*/ 
+
+#Inleiding_aanvallers_en_verdedigers { 
+    border: 1px solid white;
+    width: 400px;
+    float: left; 
+}
+
+#Computercriminaliteit {
+
+}
+
+#Ethisch_hacken {
+
+}
+
+#Spoinage_en_oorlogsvoering {
+    
+}

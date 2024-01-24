@@ -2,10 +2,10 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Diamond Security</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Diamond Security</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -14,28 +14,70 @@
 	<h1>Diamond Security</h1>
  </header>
  <nav>
-    <p> <a href="index.html">terug </a> </p>
- </nav>
- <nav>
-	<p> <a href="digitale_veiligheid.html">Digitale veiligheid</a> </p>
- </nav>
- <nav>
-	<p> <a href="Bedrijgingen.html">Bedreigingen</a> </p>
- </nav>
- <nav>
-	<p> <a href="aanvallers_en_verdedigers.html">Aanvallers en verdedigers</a> </p>
- </nav>
- <nav>
-	<p> <a href="maatregelen.html">Maatregelen</a> </p>
- </nav>
- <nav>
-	<p> <a href="SQL-injecties.html">SQL-injecties</a> </p>
- </nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li class="dropdown">
+		    <a href="digitale_veiligheid.html">Digitale Veiligheid</a>
+    		<div class="dropdown-content">
+     			 <a href="digitale_veiligheid.html">Inleiding</a>
+     			 <a href="digitale_veiligheid.html">Vertrouwelijkheid</a>
+     			 <a href="digitale_veiligheid.html">Integriteit</a>
+	  			<a href="digitale_veiligheid.html">Beschikbaarheid</a>
+			</div>
+		</li>
+		<li class="dropdown">
+		    <a href="Bedrijgingen.html">Bedrijgingen</a>
+    		<div class="dropdown-content">
+     			<a href="Bedrijgingen.html">Inleiding</a>
+     			<a href="Bedrijgingen.html">Zwakheden in de architectuur</a>
+     			<a href="Bedrijgingen.html">Zwakheden in de communicatie</a>
+	  			<a href="Bedrijgingen.html">Zwakheden bij gebruikers</a>
+				<a href="Bedrijgingen.html">Technieken</a>
+				<a href="Bedrijgingen.html">Malware</a>
+			</div>
+		</li>
+		<li class="dropdown">
+		    <a href="aanvallers_en_verdedigers.html">Aanvallers en Verdedigers</a>
+    		<div class="dropdown-content">
+     			<a href="aanvallers_en_verdedigers.html">Inleiding</a>
+     			<a href="aanvallers_en_verdedigers.html">Computercriminaliteit</a>
+     			<a href="aanvallers_en_verdedigers.html">Computercredebreuk</a>
+	  			<a href="aanvallers_en_verdedigers.html">Ethisch hacken</a>
+				<a href="aanvallers_en_verdedigers.html">Spionage en oorlogsvoering</a>
+			</div>
+		</li>
+		<li class="dropdown">
+		    <a href="maatregelen.html">Maatregelen</a>
+    		<div class="dropdown-content">
+     			<a href="maatregelen.html">Inleiding</a>
+     			<a href="maatregelen.html">Preventie</a>
+     			<a href="maatregelen.html">Detectie</a>
+	  			<a href="maatregelen.html">Repressie en correctie</a>
+				<a href="maatregelen.html">Symmetrische encryptie</a>
+				<a href="maatregelen.html">Asymmetrische encryptie</a>
+				<a href="maatregelen.html">Wat kun je zelf doen?</a>
+			</div>
+		</li>		
+		<li class="dropdown">
+		    <a href="SQL-injecties.html">SQL-injecties</a>
+    		<div class="dropdown-content">
+     			<a href="SQL-injecties.html">Inleiding</a>
+     			<a href="SQL-injecties.html">Wat is een SQL-injectie</a>
+     			<a href="SQL-injecties.html">Een SQL-query manipuleren</a>
+	  			<a href="SQL-injecties.html">Structuur van een database achterhalen</a>
+				<a href="SQL-injecties.html">SQL query's uitbreiden</a>
+			</div>
+		</li>
+	  </ul>
+</nav>
  <article>
 	<p>
+		<div id="Inleiding_aanvallers_en_verdedigers">  
 		<h3> Inleiding </h3>
 				<h5> Aanvallers en verdedigers spelen een kat- en muisspel, verdedigers verzinnen betere verdediging en aanvallers bedenken betere aanvallen. Aanvallers noemen we snel hackers maar er zijn ook hackers met een goede bedoeling hieronder leest u wat internetcriminaliteit precies is. </h5>
-		<h3> Computercriminaliteit </h3>
+		</div>
+		<div id="Computercriminaliteit">
+			<h3> Computercriminaliteit </h3>
 				<h5> De belangrijkste vormen van cybercrime zijn: <br>
 			<ul>
 			 <li> <b> diefstal </li>
@@ -63,36 +105,31 @@
 		  <h4> Afpersing </h4>
 				<h5> Bij <b> afpersing </b> is vooral ransomware bekend. Bij afpersing dreigen criminelen met gegevens of foto’s die ze verspreiden tenzij u meer stuurt of geld betaalt. Als het dreigen gebuirt met naaktfotos is het ook seksueel misbruik. <br>
 				Vaak vertellen ze niet de waarheid maar dat kunt u niet weten. Mensen betalen vaak uit angsten. </h5>
-		<h3> Computervredebreuk </h3>
+		</div>	
+		
+		<div id="Computervredebreuk">
+			<h3> Computervredebreuk </h3>
 				<h5> <b>Computervredebreuk</b> is een naam die de wet geeft aan hacken. Computervredebreuk is het ongeoorloofd binnenbringen in een computersysteem. Het is dus een inbraak. </h5>
-		<h3>Ethisch hacken</h3>
+		</div>
+		
+		<div id="Ethisch_hacken"> 
+			<h3>Ethisch hacken</h3>
 				<h5>
 				Hacken voor goede bedoelingen heet <b>ethisch hacken</b>. Ethische hackers gaan op zoek naar een lek in een website en geven dat dan vervolgens door aan de maker van de website zodat de lek kan worden gerepareert.
     			Vaak word een lek openbaar gemaakt, omdat sommige bedrijven er niets aan de lek doen of heel sloom de lek repareren.
     			Vaak geven hackers eerst de lek door aan het bedrijf en dan een bepaalde periode later maakt de hacker de lek openbaar dit heet <b> responsive disclosure</b>. <br>
     			Etische hackers zijn officieel strafbaar maar worden niet vervolgt tenzij ze onnodige gegevens stelen of te veel computers hacken.</h5>
-		<h3> Spionage en oorlogsvoering </h3>
+		</div>
+		<div id="Spoinage_en_oorlogsvoering">
+			<h3> Spionage en oorlogsvoering </h3>
 				<h5>
    				<b>Zero day</b> is een nog niet ondekte lek. <i>zero day's</i> zijn erg veel geld waard, omdat het belangrijke middelen zijn voor bij het hacken.
     			<i>Zero day</i> kunt u zien als wapens in een digitale oorlogsvoering en de handel ervan is een soort wapenhandel. <br>
    				Bedrijven kopen ook soms <i>zero days</i> om ervoor te zorgen dat ze hun bedrijf kunnen repareren.
     			Ook de overheid koopt ze om te spioneren. Ze hacken dan de systemen van de vijand.</h5>
+		</div>
 	</p>
  </article>
- <div>
-	<p>
-		<h2>Inhoud</h2>
-		<h5>
-			<ol>
-				<li>Inleiding</li>
-				<li>Computercriminaliteit</li>
-				<li>Computervredebreuk</li>
-				<li>Ethisch hacken</li>
-				<li>Spionage en oorlogsvoering</li>
-			</ol>
-		</h5>
-	</p>
-</div>
  <footer>
 	<p> <h6>U kunt contact opnemen via E-mail (<a href="mailto:florinevanmelis@gmail.com">
 		Diamondsecurity@gmail.com) of neem contact op via telefoon (06 2958375) </h6>

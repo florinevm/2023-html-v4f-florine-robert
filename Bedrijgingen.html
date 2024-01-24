@@ -10,73 +10,127 @@
 
 <body>
 
+	<div id="wrapper_bedrijgingen">
 	<header>
 		<h1>Diamond Security</h1>
 	</header>
 	
 	<nav>
-		<p> <a href="index.html">terug </a> </p>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li class="dropdown">
+				<a href="digitale_veiligheid.html">Digitale Veiligheid</a>
+				<div class="dropdown-content">
+					  <a href="digitale_veiligheid.html">Inleiding</a>
+					  <a href="digitale_veiligheid.html">Vertrouwelijkheid</a>
+					  <a href="digitale_veiligheid.html">Integriteit</a>
+					  <a href="digitale_veiligheid.html">Beschikbaarheid</a>
+				</div>
+			</li>
+			<li class="dropdown">
+				<a href="Bedrijgingen.html">Bedrijgingen</a>
+				<div class="dropdown-content">
+					 <a href="Bedrijgingen.html">Inleiding</a>
+					 <a href="Bedrijgingen.html">Zwakheden in de architectuur</a>
+					 <a href="Bedrijgingen.html">Zwakheden in de communicatie</a>
+					  <a href="Bedrijgingen.html">Zwakheden bij gebruikers</a>
+					<a href="Bedrijgingen.html">Technieken</a>
+					<a href="Bedrijgingen.html">Malware</a>
+				</div>
+			</li>
+			<li class="dropdown">
+				<a href="aanvallers_en_verdedigers.html">Aanvallers en Verdedigers</a>
+				<div class="dropdown-content">
+					 <a href="aanvallers_en_verdedigers.html">Inleiding</a>
+					 <a href="aanvallers_en_verdedigers.html">Computercriminaliteit</a>
+					 <a href="aanvallers_en_verdedigers.html">Computercredebreuk</a>
+					  <a href="aanvallers_en_verdedigers.html">Ethisch hacken</a>
+					<a href="aanvallers_en_verdedigers.html">Spionage en oorlogsvoering</a>
+				</div>
+			</li>
+			<li class="dropdown">
+				<a href="maatregelen.html">Maatregelen</a>
+				<div class="dropdown-content">
+					 <a href="maatregelen.html">Inleiding</a>
+					 <a href="maatregelen.html">Preventie</a>
+					 <a href="maatregelen.html">Detectie</a>
+					  <a href="maatregelen.html">Repressie en correctie</a>
+					<a href="maatregelen.html">Symmetrische encryptie</a>
+					<a href="maatregelen.html">Asymmetrische encryptie</a>
+					<a href="maatregelen.html">Wat kun je zelf doen?</a>
+				</div>
+			</li>		
+			<li class="dropdown">
+				<a href="SQL-injecties.html">SQL-injecties</a>
+				<div class="dropdown-content">
+					 <a href="SQL-injecties.html">Inleiding</a>
+					 <a href="SQL-injecties.html">Wat is een SQL-injectie</a>
+					 <a href="SQL-injecties.html">Een SQL-query manipuleren</a>
+					  <a href="SQL-injecties.html">Structuur van een database achterhalen</a>
+					<a href="SQL-injecties.html">SQL query's uitbreiden</a>
+				</div>
+			</li>
+		  </ul>
 	</nav>
-	<nav>
-		<p> <a href="digitale_veiligheid.html">Digitale veiligheid</a> </p>
-	</nav>
-	<nav>
-		<p> <a href="Bedrijgingen.html">Bedreigingen</a> </p>
-	</nav>
-	<nav>
-		<p> <a href="aanvallers_en_verdedigers.html">Aanvallers en verdedigers</a> </p>
-	</nav>
-	<nav>
-		<p> <a href="maatregelen.html">Maatregelen</a> </p>
-	</nav>
-	<nav>
-		<p> <a href="SQL-injecties.html">SQL-injecties</a> </p>
-	</nav>
+	
 	<article>
 		<p>
+		<div id="Inleiding_Bedrijgingen">
 		<h3> Inleiding </h3>
 		<h5> Digitale veiligheid wordt op allerlei manieren bedreigd. Aanvaller richten dan vooral op de zwakke plekken:
 			<br>
-			<ul>
+			<ol>
 				<li> zwakheden in de architectuur </li>
 				<li> zwakheden in de communicatie </li>
 				<li> zwakheden bij gebruikers. </li>
-			</ul> <br>
+			</ol> <br>
 			Voor elk van deze zwakheden is er een bepaalde manier waarop er misbruik van wordt gemaakt wat u hieronder
 			kunt lezen.
 		</h5>
+		</div>
+		<div id="Zwakheden_in_de_architectuur">
+		<div id="Zwakheden_in_de_architectuur2"> <!--Deze is speciaal voor het h3 en h5 kopje hieronder en de bijbehorende lijst ~RP-->
 		<h3> Zwakheden in de architectuur </h3>
 		<h5> In de architectuur zijn 3 lagen: <br>
 			<ol>
-				<li> <b> fysieke laag </b> </li>
-				<li> <b> logische laag </b> </li>
-				<li> <b> toepassingen laag. </b> </li>
+				<li> fysieke laag  </li>
+				<li> logische laag  </li>
+				<li> toepassingen laag </li>
 			</ol> <br>
-		<div id="afbeelding.drielagen">
-			<img src="images/drie_lagen.jpg"
+		<div id="afbeelding_drielagen">
+			<img src="images/drie_lagen.jpg" width="300" height="300">
 		</div>
+		</div>
+		<div id="Zwakheden_in_de_architectuur3"> <!--Deze heb ik speciaal erbij gedaan om  dit deel te kunnen berwerken ~ RP-->
+			<h3> Zwakheden in de architectuur </h3>
 			Een zwakheid in de architectuur maakt gebruik van een tekortkoming in een van deze lagen, of de communicatie
 			tussen 2 lagen. Vaak had de maker of ontwerper die fout niet opgemerkt bij het maken van de lagen of de
 			communicatie daartussen. <br>
 			Een voorbeeld is de camera op uw telefoon. Als een app de camera wilt gebruiken komt er een pop-up om
 			toestemming te vragen, soms verschijnt dat niet waardoor een aanvaller kan meekijken met uw camera zonder
 			dat u het doorheeft. <br>
-		<div id="afbeelding.acces">
-			<img src="images/acces.jpg"
+		<div id="afbeelding_acces">
+			<img src="images/acces.jpg">
 		</div>
+		</div>
+		<div id="Zwakheden_in_de_architectuur4">
+			<h3> Zwakheden in de architectuur </h3>
 			Een <b> lek </b> in een website of een app betekent dat een kwaadwillige partij een zwakheid heeft gevonden
 			in de architectuur en willen daarmee schade aanrichten. <br>
 			Soms veranderen hackers data dat kunnen ze als de data basisverbinding slecht beveiligd is, ze gebruikten
 			dan een techniek die <b> SQL-injecties </b> worden genoemd (daarover is <u> <a href="SQL-injecties.html">hier</a> </u> meer te vinden.) <br>
 			Zwakheden in de architectuur kunnen makkelijk opgespoord worden door het te testen. Dan gaat iemand zelf de
 			architectuur aanvallen en als diegene iets vindt, meld diegene dat zodat het kan worden aangepast.
+		</div> 
 		</h5>
+		</div>
+	<div id="Zwakheden_in_de_communicatie"> 
 	<h3> Zwakheden in de communicatie </h3>
 		<h5> Verschillende apparaten zijn met elkaar verbonden door bijvoorbeeld het internet. Dit moet veilig gebeuren
 			zodat privé-informatie enkel zichtbaar is voor u en de website waarmee u het deelt. Als het niet veilig is
 			kan er een aanval gebruiken zoals de <b> man-in-the-middel aanval </b> <br>
-		<div id="afbeelding.man-in-the-middel">
-			<img src="images/maninthemiddle.jpg"
+		<div id="afbeelding_man_in_the_middel">
+			<img src="images/maninthemiddle.jpg" width="800" height="700px">
 		</div>
 			Bij een <b> man-in-the-middel aanval </b> wordt de verbinding tussen 2 apparaten afgeluisterd, dit kunt u
 			niet doorhebben. Vooral vroeger werd deze aanval veel gebruikt via openbare wifi-netwerken. <br>
@@ -91,20 +145,21 @@
 			zeker wilt weten dat de website een SSL-certificaat heeft, kunt u dat controleren door te kijken of er een
 			slotje is bij de adresbalk. <br>
 		<div id="afbeelding.slotje">
-			<img src="images/slotje.png"
+			<img src="images/slotje.png">
 		</div>
 			<b> End-to-end encryptie </b> is een vorm van encryptie waar het de gegevens versleutelt voordat ze op het
 			internet gaan, alleen u en de ontvanger krijgt de sleutel om het te ontgrendelen. Op deze manier krijgt een
 			hacker niet alle gegevens via een server. <br>
 		<div id="afbeelding.encryptievergelijking">
-			<img src="images/encryptievergelijking.png"
+			<img src="images/encryptievergelijking.png">
 		</div>
 		</h5>
+	</div>
 	<h3> Zwakheden bij gebruikers </h3>
 		<h5> Misschien wel de grootste zwakte ligt bij onszelf. Het bekendste daarvan is hoe wij omgaan met
 			wachtwoorden. (een voorbeeld daarvan is de zien in <u> deze </u> video) |
 			Ook gebruiken mensen vaak een te makkelijk wachtwoord. De meest voorkomende zijn: <br>
-			<table border=="1">
+			<table border="1">
 				<tr>
 					<td> <b> Wereldwijd </b> </td>
 					<td> <b> Nederland </b> </td>
@@ -255,6 +310,7 @@
 		</a>
 		</p>
 	</footer>
+</div>
 </body>
 
 </html>
