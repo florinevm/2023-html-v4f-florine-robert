@@ -195,6 +195,10 @@ width: 200px;
 
 #Inleiding_Bedrijgingen {
     width: 600px;
+    clear: both;
+    h3{
+        color: black;
+    }
     background-color: white; /*deze moet naar het midden van zijn rij worden verplaatst*/
     }
     ol{
@@ -296,4 +300,105 @@ width: 200px;
     overflow: hidden;
     width: 600px;
     height: 605.5px;
+}
+
+/*Ik ga hier verder met maatregelen*/ 
+#wrapper_maatregelen {
+    width: 1175px;
+}
+
+#Inleiding_maatregelen {
+    border: 1px solid white;
+    width: 600px;
+    height: 700px;
+    overflow: hidden;
+    float: left;
+    ol {
+        float: left;
+    }
+}
+
+#Preventie {
+    border: 1px solid white;
+    width: 500px;
+    height: 250px;
+    overflow: hidden;
+    float: left;
+}
+
+#Detectie {
+    border: 1px solid white;
+    width: 500px;
+    height: 205.5px;
+    overflow: hidden;
+    float: left;
+}
+
+#Repressie_en_correctie {
+    border: 1px solid white;
+    width: 500px;
+    height: 200px;
+    float: left;
+}
+
+#Symmetrische_encryptie {
+    border: 1px solid white;
+    overflow: hidden;
+    width: 1123px;
+    float: left;
+}
+
+#Assymetrische_encryptie {
+    border: 1px solid white;
+    width: 675px;
+    height: 600px;
+    overflow: hidden;
+    float: left;
+}
+
+#Wat_kun_je_zelf_doen {
+    border: 1px solid white;
+    width: 425px;
+    height: 600px;
+    overflow: hidden;
+    float: left;
+    ol {
+        float: left;
+    }
+}
+
+/*Ik ga hier beginnen met SQL-Injecties*/ 
+#wrapper_SQL_Injecties {
+    width: 1200px;
+    height: ;
+}
+
+#Inleiding_SQL_Injecties {
+    border: 1px solid white;
+    width: 700px;
+}
+
+#Wat_is_een_SQL_injectie {
+    border: 1px solid white;
+    width: 700px;
+}
+
+#Een_SQL_query_manipuleren {
+    border: 1px solid white;
+    width: 700px;
+}
+
+#Structuur_van_een_database_achterhalen {
+    border: 1px solid white;
+    width: 700px;
+}
+
+#SQL_query_uitbreiden {
+    border: 1px solid white;
+    width: 700px;
+}
+
+#SQL_Filmpje {
+    border: 1px solid white;
+    width: 700px;
 }
