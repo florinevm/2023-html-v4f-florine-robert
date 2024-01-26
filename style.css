@@ -33,7 +33,6 @@ ul{
     }
 
 nav { 
-    float: center;
     text-align: center;
     li{
         margin: 0px;;
@@ -91,8 +90,6 @@ li.dropdown {
 h1{ 
     color:rgb(69, 136, 180);
     font-weight: bold;
-    width: 150;
-    height: 150;
     text-align: center;
 }
 h2 {
