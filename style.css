@@ -40,7 +40,12 @@ nav {
         float: left;
         color: white;
     }
-    
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
     li a{
         display: inline-block;
         text-align: center;
@@ -219,7 +224,7 @@ width: 200px;
 }
 
 #Inleiding_Bedrijgingen {
-    width: 600px;
+    width: 1100px;
     clear: both;
     h3{
         color: black;
@@ -238,7 +243,7 @@ width: 200px;
     float: left;
     border: 1px solid white;
     height: 570px;
-    width: 350px;
+    width: 450px;
 }
 #afbeelding_drielagen {
     width: 300px;
@@ -252,7 +257,7 @@ width: 200px;
 
 #Zwakheden_in_de_architectuur3 {
     border: 1px solid white;
-    width: 500px;
+    width: 620px;
     height: 570px;
     overflow: hidden;
     float: left;
@@ -262,7 +267,7 @@ width: 200px;
 
 #Zwakheden_in_de_architectuur4 {
     border: 1px solid white;
-    width: 872px;
+    width: 1093px;
     height: 200px;
     clear: both;
     float: left;
@@ -277,7 +282,7 @@ width: 200px;
 #Zwakheden_in_de_communicatie {
     border: 1px solid white;
     float: left;
-    width: 872px;
+    width: 1100px;
     overflow: hidden;
 
 }
@@ -298,6 +303,7 @@ width: 200px;
 #Zwakheden_bij_gebruikers{
     border: 1px solid white;
     float: left;
+    width: 1100px;
 }
 
 #Technieken {
@@ -309,55 +315,63 @@ width: 200px;
 #Social_Engineering {
     float: left;
     border: 1px solid white;
+    width: 1100px;
 
 }
 
 #Phising {
     float: left;
     border: 1px solid white;
+    width: 1100px;
 
 }
 
 #Malware {
     float: left;
     border: 1px solid white;
+    width: 1100px;
 
 }
 
 #Trojan_Horse {
     float: left;
     border: 1px solid white;
+    width: 1100px;
 
 }
 
 #Worm {
     float: left;
     border: 1px solid white;
+    width: 1100px;
 
 }
 
 #Virus {
     float: left;
     border: 1px solid white;
+    width: 1100px;
 
 }
 
 #Spyware_en_Adware {
     float: left;
     border: 1px solid white;
+    width: 1100px;
 
 }
 
 #Ransomware {
     float: left;
     border: 1px solid white;
+    width: 1100px;
 
 }
 
 #Footer_Bedrijgingen {
     border: 1px solid white;
     background-color: rgb(56, 101, 185);
-    width: 1200px;
+    width: 1120px;
     a{
         color: blue; 
     }
