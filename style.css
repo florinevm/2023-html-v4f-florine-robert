@@ -1,5 +1,5 @@
 html{ 
-    color: #0f4c75ff;
+    color: rgb(69, 136, 180);
     height: 100%; 
     width: 100%; 
     font-family:'Times New Roman', Times, serif;  
@@ -12,7 +12,7 @@ html{
 
 body{ 
     height: 100%;
-    color:#0f4c75ff; 
+    color:rgb(69, 136, 180); 
     font-family: 'Times New Roman', Times, serif;
     background-image: url(images/diagmonds.png);}
 
@@ -21,7 +21,7 @@ body{
 }
 header{ 
     margin-top: auto;
-    color: #0f4c75ff; 
+    color: rgb(69, 136, 180); 
 }
 
 ul{ 
@@ -53,7 +53,7 @@ nav {
         padding: 10px;
         border: 1px solid white;
         width: auto;
-        background-color: #0f4c75ff;
+        background-color: rgb(69, 136, 180);
     }
 }
 
@@ -89,14 +89,14 @@ li.dropdown {
 
 
 h1{ 
-    color:#0f4c75ff;
+    color:rgb(69, 136, 180);
     font-weight: bold;
     width: 150;
     height: 150;
     text-align: center;
 }
 h2 {
-    color: #0f4c75ff; 
+    color: rgb(69, 136, 180); 
  }
 
  h3{
@@ -117,11 +117,11 @@ h2 {
  }
 
  p{ 
-    color: #0f4c75ff;
+    color: rgb(69, 136, 180);
 }
 
 h5{ 
-    color:#0f4c75ff; 
+    color:rgb(69, 136, 180); 
 }
 
 article{
@@ -149,7 +149,7 @@ overflow: hidden;
 
 footer {
     border: 1px solid white;
-    background-color: rgb(56, 101, 185);
+    background-color: rgb(0, 71, 118);;
     width: 1200px;
     a {
         color: blue;
@@ -210,8 +210,11 @@ width: 200px;
 
 #Contact_digitale {
     border: 1px solid white;
-    background-color: rgb(56, 101, 185);
+    background-color: rgb(0, 71, 118);;
     width: 1850px;
+    clear: both;
+    margin: auto;
+    text-align: center;
     a{
         color: blue; 
     }
@@ -309,6 +312,7 @@ width: 200px;
 #Technieken {
     float: left;
     border: 1px solid white;
+    width: 1100px;
 
 }
 
@@ -370,8 +374,9 @@ width: 200px;
 
 #Footer_Bedrijgingen {
     border: 1px solid white;
-    background-color: rgb(56, 101, 185);
+    background-color: rgb(0, 71, 118);
     width: 1120px;
+    text-align: center;
     a{
         color: blue; 
     }
@@ -430,9 +435,10 @@ width: 200px;
 
 #Footer_aanvallers {
     border: 1px solid white;
-    background-color: rgb(56, 101, 185);
+    background-color: rgb(0, 71, 118);;
     width: 1550px;
     height: 200px;
+    text-align: center;
 a{
     color: blue; 
 }
@@ -505,8 +511,9 @@ a{
 
 #Footer_maatregelen {
     border: 1px solid white;
-    background-color: rgb(56, 101, 185);
+    background-color: rgb(0, 71, 118);;
     width: 1125px;
+    text-align: center;
     a{
         color: blue; 
     }
