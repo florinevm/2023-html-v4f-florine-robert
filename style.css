@@ -144,7 +144,7 @@ overflow: hidden;
 
 footer {
     border: 1px solid white;
-    background-color: white;
+    background-color: rgb(56, 101, 185);
     width: 1200px;
     a {
         color: blue;
@@ -202,6 +202,15 @@ background-color: white;
 #Inhoud_digitale_veiligheid{
 width: 200px;
     }
+
+#Contact_digitale {
+    border: 1px solid white;
+    background-color: rgb(56, 101, 185);
+    width: 1850px;
+    a{
+        color: blue; 
+    }
+}
 
 /*Ik ga hier verder met bedrijgingen.html*/ 
 #wrapper_bedrijgingen {
@@ -345,6 +354,14 @@ width: 200px;
 
 }
 
+#Footer_Bedrijgingen {
+    border: 1px solid white;
+    background-color: rgb(56, 101, 185);
+    width: 1200px;
+    a{
+        color: blue; 
+    }
+}
 
 /*Ik ga hier verder met aanvallers en verdedigers*/ 
 
@@ -397,6 +414,15 @@ width: 200px;
     height: 605.5px;
 }
 
+#Footer_aanvallers {
+    border: 1px solid white;
+    background-color: rgb(56, 101, 185);
+    width: 1550px;
+    height: 200px;
+a{
+    color: blue; 
+}
+}
 /*Ik ga hier verder met maatregelen*/ 
 #wrapper_maatregelen {
     width: 1175px;
@@ -463,6 +489,14 @@ width: 200px;
     }
 }
 
+#Footer_maatregelen {
+    border: 1px solid white;
+    background-color: rgb(56, 101, 185);
+    width: 1125px;
+    a{
+        color: blue; 
+    }
+}
 /*Ik ga hier beginnen met SQL-Injecties*/ 
 #wrapper_SQL_Injecties {
     width: 1200px;
