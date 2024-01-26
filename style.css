@@ -16,6 +16,9 @@ body{
     font-family: 'Times New Roman', Times, serif;
     background-image: url(images/diagmonds.png);}
 
+#wrapper_index {
+    width: 1300px;
+}
 header{ 
     margin-top: auto;
     color: #0f4c75ff; 
@@ -117,20 +120,32 @@ h5{
 }
 
 article{
+overflow: hidden;
 #afbeelding_beginblz{
     float: left;
     width: 900px; 
-    height: 600px;} 
+    height: 600px;}
 }
 
 #Over_ons {
+    float: left;
+    width: 300px;
     a{
         color: blue;
         text-decoration: underline;
     }
 }    
 
+#Over_diamond_security {
+    float: left;
+    width: 300px;
+
+}
+
 footer {
+    border: 1px solid white;
+    background-color: white;
+    width: 1200px;
     a {
         color: blue;
         text-decoration: underline;
@@ -142,6 +157,7 @@ footer {
 #wrapper_digitale_veiligheid {
     width: 1850px;
     clear: both;
+    margin: auto;
 }
 
 #Digitale_veiligheid_inleiding {
@@ -187,10 +203,10 @@ background-color: white;
 width: 200px;
     }
 
-
 /*Ik ga hier verder met bedrijgingen.html*/ 
 #wrapper_bedrijgingen {
-    width: 1790px;
+    width: 1200px;
+    margin: auto;
 }
 
 #Inleiding_Bedrijgingen {
@@ -199,7 +215,7 @@ width: 200px;
     h3{
         color: black;
     }
-    background-color: white; /*deze moet naar het midden van zijn rij worden verplaatst*/
+    background-color: white; 
     }
     ol{
         list-style-type: disc;
@@ -230,15 +246,19 @@ width: 200px;
     width: 500px;
     height: 570px;
     overflow: hidden;
+    float: left;
+
 
 }
 
 #Zwakheden_in_de_architectuur4 {
-    float: left;
     border: 1px solid white;
     width: 872px;
     height: 200px;
     clear: both;
+    float: left;
+
+    margin: auto;
     a {
         color: blue;
         text-decoration: underline;
@@ -246,16 +266,91 @@ width: 200px;
 }
 
 #Zwakheden_in_de_communicatie {
+    border: 1px solid white;
+    float: left;
+    width: 872px;
+    overflow: hidden;
 
 }
 
-#afbeelding_man_in_the_middel {} 
+#afbeelding_man_in_the_middel {
+    width: 900px;
+
+} 
+
+#afbeelding_slotje {
+
+}
+
+#afbeelding_encryptievergelijking {
+    float: left;
+}
+
+#Zwakheden_bij_gebruikers{
+    border: 1px solid white;
+    float: left;
+}
+
+#Technieken {
+    float: left;
+    border: 1px solid white;
+
+}
+
+#Social_Engineering {
+    float: left;
+    border: 1px solid white;
+
+}
+
+#Phising {
+    float: left;
+    border: 1px solid white;
+
+}
+
+#Malware {
+    float: left;
+    border: 1px solid white;
+
+}
+
+#Trojan_Horse {
+    float: left;
+    border: 1px solid white;
+
+}
+
+#Worm {
+    float: left;
+    border: 1px solid white;
+
+}
+
+#Virus {
+    float: left;
+    border: 1px solid white;
+
+}
+
+#Spyware_en_Adware {
+    float: left;
+    border: 1px solid white;
+
+}
+
+#Ransomware {
+    float: left;
+    border: 1px solid white;
+
+}
 
 
 /*Ik ga hier verder met aanvallers en verdedigers*/ 
 
 #wrapper_aanvallers_en_verdedigers {
     width: 1600px;
+    margin: auto;
 }
 
 #Inleiding_aanvallers_en_verdedigers { 
@@ -305,6 +400,7 @@ width: 200px;
 /*Ik ga hier verder met maatregelen*/ 
 #wrapper_maatregelen {
     width: 1175px;
+    margin: auto;
 }
 
 #Inleiding_maatregelen {
@@ -370,7 +466,7 @@ width: 200px;
 /*Ik ga hier beginnen met SQL-Injecties*/ 
 #wrapper_SQL_Injecties {
     width: 1200px;
-    height: ;
+    margin: auto;
 }
 
 #Inleiding_SQL_Injecties {
